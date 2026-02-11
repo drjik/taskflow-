@@ -8,7 +8,6 @@
         <groupId>drjik</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>task-service</artifactId>
@@ -36,6 +35,12 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>drjik</groupId>
+            <artifactId>common-libs</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

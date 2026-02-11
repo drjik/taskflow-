@@ -8,10 +8,7 @@
         <groupId>drjik</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <packaging>jar</packaging>
 
     <artifactId>notification-service</artifactId>
 
@@ -22,22 +19,16 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-
         <!-- MapStruct -->
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
         </dependency>
 
-        <!-- DB -->
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
+            <groupId>drjik</groupId>
+            <artifactId>common-libs</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

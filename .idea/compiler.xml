@@ -16,26 +16,23 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
+        <module name="common-libs" />
+        <module name="notification-service" />
         <module name="task-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="notification-service (1)" target="17" />
-      <module name="notification-service (2)" target="17" />
       <module name="parent" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="notification-service (1)" options="-parameters" />
-      <module name="notification-service (2)" options="-parameters" />
-      <module name="notification-task-service" options="-parameters" />
+      <module name="common-libs" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="parent" options="-parameters" />
       <module name="task-service" options="-parameters" />
+      <module name="task-service (1)" options="-parameters" />
     </option>
   </component>
 </project>
