@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="notification-service" name="Default">
+        <packages>
+          <package value="drjik.notification_service" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="task-service" name="Default">
+        <packages>
+          <package value="drjik.task_service" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
